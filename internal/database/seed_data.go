@@ -1,0 +1,86 @@
+package database
+
+import "github.com/lucasgutmann0/user-sql-crud-tui/internal/models"
+
+var seedData = []models.User{
+	{
+		ID:       1,
+		Name:     "John Doe",
+		Role:     "admin",
+		Email:    "john.doe@example.com",
+		Age:      30,
+		Password: "securepassword123",
+	},
+	{
+		ID:       2,
+		Name:     "Jane Smith",
+		Role:     "user",
+		Email:    "jane.smith@example.com",
+		Age:      25,
+		Password: "anothersecurepassword",
+	},
+	{
+		ID:       3,
+		Name:     "Alice Johnson",
+		Role:     "moderator",
+		Email:    "alice.johnson@example.com",
+		Age:      28,
+		Password: "alicepassword321",
+	},
+	{
+		ID:       4,
+		Name:     "Bob Brown",
+		Role:     "user",
+		Email:    "bob.brown@example.com",
+		Age:      35,
+		Password: "bobbypassword789",
+	},
+	{
+		ID:       5,
+		Name:     "Eve Wilson",
+		Role:     "admin",
+		Email:    "eve.wilson@example.com",
+		Age:      40,
+		Password: "evesecretpassword",
+	},
+	{
+		ID:       6,
+		Name:     "Charlie Davis",
+		Role:     "user",
+		Email:    "charlie.davis@example.com",
+		Age:      22,
+		Password: "charliepassword111",
+	},
+	{
+		ID:       7,
+		Name:     "Diana Miller",
+		Role:     "editor",
+		Email:    "diana.miller@example.com",
+		Age:      27,
+		Password: "dianasecurepwd",
+	},
+	{
+		ID:       8,
+		Name:     "Frank Harris",
+		Role:     "guest",
+		Email:    "frank.harris@example.com",
+		Age:      33,
+		Password: "frankspass333",
+	},
+	{
+		ID:       9,
+		Name:     "Grace Lee",
+		Role:     "moderator",
+		Email:    "grace.lee@example.com",
+		Age:      29,
+		Password: "gracelee1992",
+	},
+	{
+		ID:       10,
+		Name:     "Henry Moore",
+		Role:     "user",
+		Email:    "henry.moore@example.com",
+		Age:      31,
+		Password: "henrysecure888",
+	},
+}
